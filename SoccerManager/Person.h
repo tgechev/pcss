@@ -16,5 +16,7 @@ public:
     // get set functions
     void setName(string newName);
     string getName();
+    int getAge();
+    void setAge(int newAge);
 };
 #endif // PERSON_H

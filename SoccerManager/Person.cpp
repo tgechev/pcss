@@ -13,3 +13,9 @@ string Person::getName()
 {
     return name;
 }
+void Person::setAge(int newAge){
+    age=newAge;
+}
+int Person::getAge(){
+    return age;
+}
