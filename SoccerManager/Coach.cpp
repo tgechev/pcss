@@ -15,6 +15,6 @@ int Coach::getExperience()
     return experience;
 }
 
-void setExperience(int newExperience){
+void Coach::setExperience(int newExperience){
     experience = newExperience;
 }

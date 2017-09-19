@@ -23,5 +23,7 @@ public:
     int shootsOnGoal();
     int getStrength();
     int getMotivation();
+    void setShots(int s);
+    int getShots();
 };
 #endif // PLAYER_H

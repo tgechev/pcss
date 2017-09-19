@@ -15,6 +15,12 @@ Player::Player(string n,int a,int st, int sh, int mo):
     motivation(mo),
     goals(0) {}
 //get set function
+void Player::setShots(int s){
+    shots=s;
+}
+int Player::getShots(){
+    return shots;
+}
 int Player::getGoals()
 {
     return goals;
