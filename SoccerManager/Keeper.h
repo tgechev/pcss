@@ -13,5 +13,8 @@ public:
 
     //functions
     bool saveShot(int shot);
+
+    void setReaction(int r);
+    int getReaction();
 };
 #endif // PLAYER_H

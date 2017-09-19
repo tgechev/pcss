@@ -22,3 +22,10 @@ bool Keeper::saveShot(int shot)
         return false; //SCOOOORE
     }
 }
+
+void Keeper::setReaction(int r){
+    reaction=r;
+}
+int Keeper::getReaction(){
+    return reaction;
+}
