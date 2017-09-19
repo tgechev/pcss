@@ -21,6 +21,7 @@ public:
     int getGuestPoints();
     string getResultText();
     void setPrint(bool f);
+    float calculateStrength(Team team);
 
     // start game function
     void startGame(Team t1, Team t2);

@@ -43,6 +43,16 @@ void FriendlySoccerMatch::setPrint(bool f)
 {
     printToFile=f;
 }
+float FriendlySoccerMatch::calculateStrength(Team team){
+    float strength = team.getStrength()/2.0f+((team.getStrength()/2.0f)*(team.getMotivation()/10.0f));
+    int deviation=rand()%2;
+        if(strength>team.getCoach().getExperience())
+        {
+            deviation=-deviation;
+        }
+    return strength=max(1,min(10,(int)strength+deviation));
+
+}
 
 // start game function
 void FriendlySoccerMatch::startGame(Team t1, Team t2)
@@ -79,10 +89,12 @@ void FriendlySoccerMatch::startGame(Team t1, Team t2)
         time=time+nextAction;
 
         //influence of motivation on strength
-        float strength1=t1.getStrength()/2.0f+((t1.getStrength()/2.0f)*(t1.getMotivation()/10.0f));
-        float strength2=t2.getStrength()/2.0f+((t2.getStrength()/2.0f)*(t2.getMotivation()/10.0f));
+        //float strength1=t1.getStrength()/2.0f+((t1.getStrength()/2.0f)*(t1.getMotivation()/10.0f));
+        //float strength2=t2.getStrength()/2.0f+((t2.getStrength()/2.0f)*(t2.getMotivation()/10.0f));
+        float strength1 = calculateStrength(t1);
+        float strength2 = calculateStrength(t2);
         //influence of trainer on strength
-        int deviation=rand()%2;
+        /*int deviation=rand()%2;
         if(strength1>t1.getCoach().getExperience())
         {
             deviation=-deviation;
@@ -93,7 +105,7 @@ void FriendlySoccerMatch::startGame(Team t1, Team t2)
         {
             deviation=-deviation;
         }
-        strength2=max(1,min(10,(int)strength2+deviation));
+        strength2=max(1,min(10,(int)strength2+deviation));*/
 
         //randomly choose player for shooting
         int shooter=rand()%10;
