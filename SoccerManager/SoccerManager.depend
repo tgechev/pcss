@@ -120,3 +120,60 @@
 	<iostream>
 	"Team.h"
 
+1505741512 source:d:\git\pcss\soccermanager\coach.cpp
+	"Coach.h"
+
+1505741512 d:\git\pcss\soccermanager\coach.h
+	"Person.h"
+
+1505744354 d:\git\pcss\soccermanager\person.h
+	<string>
+
+1505741512 source:d:\git\pcss\soccermanager\friendlysoccermatch.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<stdlib.h>
+	"FriendlySoccerMatch.h"
+
+1505741512 d:\git\pcss\soccermanager\friendlysoccermatch.h
+	"FriendlyMatch.h"
+	"Team.h"
+
+1505741512 d:\git\pcss\soccermanager\friendlymatch.h
+
+1505741512 d:\git\pcss\soccermanager\team.h
+	"Coach.h"
+	"Keeper.h"
+	"Player.h"
+
+1505741512 d:\git\pcss\soccermanager\keeper.h
+	"Player.h"
+
+1505741512 d:\git\pcss\soccermanager\player.h
+	"Person.h"
+
+1505741512 source:d:\git\pcss\soccermanager\keeper.cpp
+	<stdlib.h>
+	"Keeper.h"
+
+1505741512 source:d:\git\pcss\soccermanager\main.cpp
+	<iostream>
+	<string>
+	<stdlib.h>
+	<time.h>
+	"FriendlySoccerMatch.h"
+	"Person.h"
+	"Coach.h"
+	"Player.h"
+	"Keeper.h"
+	"Team.h"
+
+1505741512 source:d:\git\pcss\soccermanager\player.cpp
+	<stdlib.h>
+	"Player.h"
+
+1505741512 source:d:\git\pcss\soccermanager\team.cpp
+	<iostream>
+	"Team.h"
+

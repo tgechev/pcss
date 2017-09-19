@@ -14,3 +14,7 @@ int Coach::getExperience()
 {
     return experience;
 }
+
+void setExperience(int newExperience){
+    experience = newExperience;
+}

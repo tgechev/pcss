@@ -14,5 +14,7 @@ public:
     //function
     int getExperience();
 
+    void setExperience(int newExperience);
+
 };
 #endif // COACH_H
