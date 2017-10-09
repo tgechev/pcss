@@ -1,8 +1,6 @@
 #include <iostream>
-#include <stdlib.h>
 #include "LinkedList.h"
 #include "Node.h"
-using namespace std;
 
 LinkedList::LinkedList(){
     head=NULL;
@@ -27,12 +25,14 @@ void LinkedList::createNode(int value)
 }
 void LinkedList::display()
   {
-    NodePtr temp=new Node;
-    temp=head;
+    int i = 1;
+    NodePtr temp=head;
+    //temp=head;
     while(temp!=NULL)
     {
-      cout<<temp->data<<"\t";
+      cout<<"Node "<<i<<": "<<temp->data<<"\n";
       temp=temp->next;
+      i++;
     }
   }
   void LinkedList::insert_start(int value)

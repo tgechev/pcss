@@ -1,7 +1,7 @@
 #include <iostream>
 #include "LinkedList.h"
 #include "Node.h"
-using namespace std;
+//using namespace std;
 
 // function declarations
 

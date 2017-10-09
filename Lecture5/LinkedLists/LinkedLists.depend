@@ -2,3 +2,18 @@
 1506343645 source:d:\cloud\onedrive - aalborg universitet\create\research\teaching\progcmpsoftsys\gitrepositories\pcss\lecture5\linkedlists\main.cpp
 	<iostream>
 
+1506950280 source:d:\git\pcss\lecture5\linkedlists\main.cpp
+	<iostream>
+	"LinkedList.h"
+	"Node.h"
+
+1506950248 d:\git\pcss\lecture5\linkedlists\linkedlist.h
+	"Node.h"
+
+1506947684 d:\git\pcss\lecture5\linkedlists\node.h
+
+1506950761 source:d:\git\pcss\lecture5\linkedlists\linkedlist.cpp
+	<iostream>
+	"LinkedList.h"
+	"Node.h"
+
